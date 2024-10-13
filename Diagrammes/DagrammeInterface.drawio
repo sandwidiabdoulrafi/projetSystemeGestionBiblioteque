@@ -1,0 +1,332 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="HK-1_uM45ghAQPInBVNs">
+    <mxGraphModel dx="5867" dy="7280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="shutaDZT_8RKhFevePPW-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-1510" width="1350" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="715" y="-1100" width="865" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-3" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;LOGO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-1000" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-5" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Email&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-985" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-900" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-7" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Mot de passe&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-907.5" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=4;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;strokeColor=#FF3333;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-8" target="shutaDZT_8RKhFevePPW-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4580" y="-720" />
+              <mxPoint x="4580" y="-910" />
+              <mxPoint x="4720" y="-910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-8" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Connexion Etudiant&amp;nbsp;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="-720" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-10" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;Se connecter en tant que Etudiant&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-1250" width="1090" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-140" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;dashPattern=8 8;strokeWidth=4;endArrow=block;endFill=1;strokeColor=#FF3333;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4706.666666666668" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-11" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Connection bibliotécaire&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="952.5" y="-610" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-12" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Creer un compte &lt;/span&gt;&lt;u style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Etudiant&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-490" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=4;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3110" y="96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-13" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Creer un compte &lt;/span&gt;&lt;u style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;Bibliotécaire&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-490" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="-2950" width="1350" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2812.5" y="-2513" width="865" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-16" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;LOGO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="-2910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="-2440" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-18" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Nom&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="-2425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="-2340" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-20" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Prenom&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="-2355" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-21" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;S&#39;inscrire&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3097.5" y="-1880" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-22" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;Creation de compte Etudiant&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="-2690" width="1090" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="-2225" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-28" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Email&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="-2240" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3255" y="-2135" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-30" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Mot de passe&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="-2150" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3255" y="-2035" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-32" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Confirmer mot de passe&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="-2050" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=4;dashed=1;dashPattern=8 8;strokeColor=#4D9900;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-33" target="shutaDZT_8RKhFevePPW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="100" width="1350" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="537" width="865" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-35" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;LOGO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="610" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-37" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Nom&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="710" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-39" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Prenom&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2955" y="695" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-40" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;S&#39;inscrire&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3157.5" y="1170" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-41" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;Creation de compte Bibliotécaire&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="360" width="1090" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="825" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-43" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Email&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2955" y="810" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="915" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-45" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Mot de passe&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="900" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="1015" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-47" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Confirmer mot de passe&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="1000" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.001;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-12" target="shutaDZT_8RKhFevePPW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.704;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;strokeColor=#4D9900;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-21" target="shutaDZT_8RKhFevePPW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-55" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4690" y="-2450" width="1350" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-57" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;LOGO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4740" y="-2410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-63" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;Etudiant&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4810" y="-2220" width="1090" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-85" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4950" y="-1990" width="1090" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-86" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4690" y="-1990" width="260" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-88" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Titre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4950" y="-1970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-89" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Auteur&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5120" y="-1970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-90" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;année de publication&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5300" y="-1975" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-91" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Maison d&#39;édition&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5620" y="-1975" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-92" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;Recherche&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="-1860" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-93" value="&lt;font color=&quot;#d1d1d1&quot; style=&quot;font-size: 23px;&quot;&gt;Recherche...&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4700" y="-1975" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-94" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Action&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5900" y="-1975" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-95" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Les bouts de bois de Dieu&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4950" y="-1910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-96" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Ousmane&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;sembène&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="-1910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-97" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;1960&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5350" y="-1910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-98" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;maison edition&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5670" y="-1915" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-99" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Emprunter&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5900" y="-1910" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-100" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4701" y="-690" width="2099" height="2099" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-101" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;LOGO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4751" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-102" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;Bibliotécaire&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5040" y="-410" width="1090" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-103" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4961" y="-230" width="1839" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-104" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4701" y="-230" width="260" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-105" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Titre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4961" y="-210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-106" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Auteur&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5131" y="-210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-107" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Année de publication&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5311" y="-215" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-108" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Maison d&#39;édition&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5631" y="-215" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-109" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;Recherche&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4721" y="-100" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-110" value="&lt;font color=&quot;#d1d1d1&quot; style=&quot;font-size: 23px;&quot;&gt;Recherche...&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4711" y="-215" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-111" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Status&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5911" y="-215" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-112" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Les bouts de bois de Dieu&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4961" y="-150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-113" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Ousmane&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;sembène&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5121" y="-150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-114" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;1960&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5361" y="-150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-115" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;maison edition&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5681" y="-155" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-117" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;Emprunter&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;ou&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;non&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5885" y="-150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;strokeWidth=4;endArrow=block;endFill=1;" edge="1" parent="1" source="shutaDZT_8RKhFevePPW-118" target="shutaDZT_8RKhFevePPW-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-118" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;Ajouter livre&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4720" y="-20" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Supprimer livre&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6660" y="-155" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-120" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Action&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6650" y="-215" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-121" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="5101" y="1140" width="1010" height="915" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-122" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5528.5" y="1213" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-123" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Titre&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5238.5" y="1228" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-124" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5528.5" y="1313" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-125" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Auteur&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5183.5" y="1298" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-126" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Valider&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5696" y="1835" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-127" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5528.5" y="1428" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-128" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Année de publication&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5183.5" y="1413" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-129" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5543.5" y="1518" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-130" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Maison d&#39;édition&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5198.5" y="1503" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-131" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5543.5" y="1618" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-132" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Status&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5198.5" y="1603" width="220" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-135" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Annuller&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5207" y="1825" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-137" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Date&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;emprunt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6050" y="-225" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-138" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;12/11/2023&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6065" y="-150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-149" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;date limite&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6290" y="-225" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-150" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;12/12/2023&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6305" y="-150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shutaDZT_8RKhFevePPW-151" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Sanctionner&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6660" y="-110" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
