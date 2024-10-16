@@ -8,8 +8,8 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import rederr.ActionRenderer;
 
-import javax.swing.table.TableColumn;
 
 /**
  *
@@ -22,6 +22,7 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
      */
     public InterfaceBibliotecaire() {
         initComponents();
+        
     }
 
     /**
@@ -36,9 +37,11 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -57,14 +60,6 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(255, 153, 51), new java.awt.Color(255, 102, 51), new java.awt.Color(153, 153, 255), new java.awt.Color(204, 204, 255)));
         jPanel2.setForeground(new java.awt.Color(133, 193, 233));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-
-        jTextField1.setText("Recherche...");
-        jTextField1.setName("inputRescherche"); // NOI18N
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
 
         jButton1.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
         jButton1.setText("Rechercher");
@@ -90,6 +85,36 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        jButton3.setText("listes des emprunts");
+        jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(153, 153, 153), new java.awt.Color(153, 204, 255), new java.awt.Color(0, 204, 204)));
+        jButton3.setName("ListesDesEmprunt"); // NOI18N
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        jButton4.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        jButton4.setText("Modifier");
+        jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(153, 153, 153), new java.awt.Color(153, 204, 255), new java.awt.Color(0, 204, 204)));
+        jButton4.setName("ModifierLiVreInfo"); // NOI18N
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        jButton5.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        jButton5.setText("banni un etudiant");
+        jButton5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(153, 153, 153), new java.awt.Color(153, 204, 255), new java.awt.Color(0, 204, 204)));
+        jButton5.setName("sanctionnBanir"); // NOI18N
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -97,22 +122,26 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton1)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(86, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(51, 51, 51)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -132,8 +161,6 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
                 "Titre", "Auteur", "Année de publication", "Maison d'édition", "Status", "Date d'emprunt", "Date limite", "Action"
             }
         ));
-        jTable1.setRowHeight(40);
-        jTable1.setShowGrid(true);
         jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -189,13 +216,50 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        
-                // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+             
+    // Logique pour rechercher un livre par titre
+    String searchTerm = JOptionPane.showInputDialog("Entrez le titre à rechercher:");
+    if (searchTerm != null && !searchTerm.trim().isEmpty()) {
+        // Créer un modèle temporaire pour afficher les résultats
+        DefaultTableModel filteredModel = new DefaultTableModel();
+        filteredModel.setColumnIdentifiers(new Object[] {"Titre", "Auteur", "Année", "Maison", "Statut", "Date d'Emprunt", "Date Limite", "Actions"});
+            
+           JTable tableModel = new JTable();
+        
+        for (int i = 0; i < tableModel.getRowCount(); i++) {
+            String titre = tableModel.getValueAt(i, 0).toString().toLowerCase();
+            
+            // Vérifiez si le titre contient le terme de recherche
+            if (titre.contains(searchTerm.toLowerCase())) {
+                // Ajouter la ligne correspondante au modèle filtré
+                Object[] rowData = new Object[tableModel.getColumnCount()];
+                for (int j = 0; j < tableModel.getColumnCount(); j++) {
+                    rowData[j] = tableModel.getValueAt(i, j);
+                }
+                filteredModel.addRow(rowData);
+            }
+        }
+        
+        // Vérifiez si des résultats ont été trouvés
+        if (filteredModel.getRowCount() > 0) {
+            // Afficher les résultats dans le tableau
+            jTable1.setModel(filteredModel);
+        } else {
+            JOptionPane.showMessageDialog(this, "Aucun livre trouvé avec ce titre.");
+        }
+    } else {
+        JOptionPane.showMessageDialog(this, "Veuillez entrer un titre valide.");
+    }
+
+ 
+
+
+// TODO add your handling code here:
+        // Logique pour rechercher un livre
+    //String searchTerm = JOptionPane.showInputDialog("Entrez le titre ou l'auteur à rechercher:");
+    // Ajoutez ici la logique pour rechercher dans le modèle de la table
+    // (Vous pouvez filtrer le modèle de la table en fonction de searchTerm)
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -210,6 +274,47 @@ public class InterfaceBibliotecaire extends javax.swing.JFrame {
   
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton2MouseClicked
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+           // Logique pour afficher la liste des emprunts
+    // Exemple d'affichage d'une nouvelle fenêtre
+    JFrame empruntFrame = new JFrame("Liste des Emprunts");
+    JTable empruntTable = new JTable(); // Remplacez par votre modèle de table approprié
+    JScrollPane scrollPane = new JScrollPane(empruntTable);
+    
+    // Ajouter ici la logique pour peupler empruntTable avec les données appropriées
+
+    empruntFrame.add(scrollPane);
+    empruntFrame.setSize(400, 300);
+    empruntFrame.setVisible(true);
+    empruntFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+// Logique pour afficher la liste des emprunts
+    // Par exemple, ouvrir un nouveau cadre ou afficher des informations
+    //JOptionPane.showMessageDialog(this, "Affichage de la liste des emprunts...");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    // Logique pour modifier les informations d'un livre
+    int selectedRow = jTable1.getSelectedRow();
+    if (selectedRow != -1) {
+        // Ouvrir un cadre pour modifier les informations
+        // Vous pouvez pré-remplir les champs avec les données de la ligne sélectionnée
+        JOptionPane.showMessageDialog(this, "Modifier le livre sélectionné...");
+    } else {
+        JOptionPane.showMessageDialog(this, "Veuillez sélectionner un livre à modifier.");
+    }
+
+// TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+         // Logique pour bannir un étudiant
+    String studentName = JOptionPane.showInputDialog("Entrez le nom de l'étudiant à bannir:");
+    // Ajoutez ici la logique pour bannir l'étudiant
+    JOptionPane.showMessageDialog(this, "Étudiant " + studentName + " banni.");
+    }//GEN-LAST:event_jButton5ActionPerformed
 public class AjouterLivreFrame extends JFrame {
     
     private JTextField txtTitre, txtAuteur, txtAnnee, txtMaison, txtStatut, txtDateEmprunt, txtDateLimite;
@@ -314,17 +419,13 @@ public class AjouterLivreFrame extends JFrame {
     
     JTable newTable = new JTable(tableModel); // Initialize newTable here
         // ...
-    btnSupprimer.addActionListener(new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            // Récupérer l'index de la ligne sélectionnée
+    btnSupprimer.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
             int rowIndex = newTable.getSelectedRow();
             if (rowIndex != -1) {
                 // Suppression de la ligne sélectionnée
                 tableModel.removeRow(rowIndex);
                 JOptionPane.showMessageDialog(null, "Ligne " + (rowIndex + 1) + " supprimée.");
-            } else {
-                JOptionPane.showMessageDialog(null, "Veuillez sélectionner une ligne à supprimer.");
             }
         }
     });
@@ -336,14 +437,15 @@ public class AjouterLivreFrame extends JFrame {
     
     
     
-        jTable1.getColumnModel().getColumn(7).setPreferredWidth(100);
-        jTable1.setRowHeight(30);
-        
-        TableColumn column = newTable.getColumnModel().getColumn(7);
-       
-        // Ajouter une nouvelle ligne dans le tableau
-        tableModel.addRow(new Object[] {titre, auteur, annee, maison, statut, dateEmprunt, dateLimite, null});
-        
+    
+    
+    
+    
+    // Créer une nouvelle instance de la classe ActionRenderer
+ActionRenderer actionRenderer = new ActionRenderer(panel);
+
+// Ajouter une nouvelle ligne dans le tableau
+tableModel.addRow(new Object[] {titre, auteur, annee, maison, statut, dateEmprunt, dateLimite, actionRenderer});
         // Fermer la fenêtre
         dispose();
     }
@@ -396,16 +498,18 @@ public class AjouterLivreFrame extends JFrame {
             }
         });
     }
-
+private DefaultTableModel tableModel;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }

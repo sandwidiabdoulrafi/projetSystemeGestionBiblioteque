@@ -4,9 +4,14 @@
  */
 
 package Login;
-import SignUp.Interface;
+
+import DataBaseInteraction.Etudiant;
+import DataBaseInteraction.BibliothecaireRole;
+import SignUp.SignupBibliotecaire;
 import Etudiant.InterfaceEtudiant;
 import InterfaceBiblioteque.InterfaceBibliotecaire;
+import SignUpEtudiant.SingupEtudiant;
+import javax.swing.JOptionPane;
 /**
  *
  * @author User
@@ -47,7 +52,7 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         label5 = new java.awt.Label();
         label6 = new java.awt.Label();
-        textField3 = new java.awt.TextField();
+        inputEmail = new java.awt.TextField();
         textField4 = new java.awt.TextField();
         button3 = new java.awt.Button();
         button4 = new java.awt.Button();
@@ -272,12 +277,12 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
         label6.setName(""); // NOI18N
         label6.setText("Email");
 
-        textField3.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        textField3.setFont(new java.awt.Font("Javanese Text", 0, 24)); // NOI18N
-        textField3.setName("inputNomEtudiant"); // NOI18N
-        textField3.addActionListener(new java.awt.event.ActionListener() {
+        inputEmail.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        inputEmail.setFont(new java.awt.Font("Javanese Text", 0, 24)); // NOI18N
+        inputEmail.setName("inputNomEtudiant"); // NOI18N
+        inputEmail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textField3ActionPerformed(evt);
+                inputEmailActionPerformed(evt);
             }
         });
 
@@ -311,7 +316,7 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
         button4.setName("btnConnexionEtudt"); // NOI18N
         button4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                button4MouseClicked(evt);
+                btnConnexionEtudiant(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 button4MouseEntered(evt);
@@ -358,6 +363,9 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
         jLabel9.setText("Bibliotécaire");
         jLabel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel9MouseClicked(evt);
+            }
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jLabel9MousePressed(evt);
             }
@@ -377,7 +385,7 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
                         .addGap(83, 83, 83)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(textField4, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField3, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(inputEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(269, 269, 269)
                         .addComponent(button4, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -404,7 +412,7 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(textField3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(inputEmail, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(47, 47, 47)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -488,30 +496,49 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_button2ActionPerformed
 
-    private void textField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_textField3ActionPerformed
+    private void inputEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputEmailActionPerformed
+
+    }//GEN-LAST:event_inputEmailActionPerformed
 
     private void textField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_textField4ActionPerformed
 
     private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_button3ActionPerformed
-
-    private void button4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button4MouseClicked
-
-        InterfaceEtudiant interfaceEtudiant = new InterfaceEtudiant();
-        interfaceEtudiant.setVisible(true);// TODO add your handling code here:
-    }//GEN-LAST:event_button4MouseClicked
 
     private void button4FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_button4FocusGained
         // TODO add your handling code here:
     }//GEN-LAST:event_button4FocusGained
-
     private void button4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button4ActionPerformed
         // TODO add your handling code here:
+        
+    String email = inputEmail.getText();
+    String password = textField2.getText();
+    
+    System.out.println("***************************Email: '" + email + "'");
+System.out.println("Password: '" + password + "'");
+
+    
+    if (email.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "Votre email est Vide.", "Error", JOptionPane.ERROR_MESSAGE);
+        return;
+        
+    }else if( password.isEmpty()){
+        JOptionPane.showMessageDialog(this, "Mot de passe Invalide.", "Error", JOptionPane.ERROR_MESSAGE);
+        return;
+    }else{
+        Etudiant etudiant = new Etudiant(email,password);
+       Boolean isConnect = etudiant.seConnecter();
+       if(isConnect){
+           JOptionPane.showMessageDialog(this, "Bienvenus cher etudiant Connection Réussi.");
+           InterfaceEtudiant interfaceEtudiant = new InterfaceEtudiant();
+           interfaceEtudiant.setVisible(true);
+        
+       }else{JOptionPane.showMessageDialog(this, "Vous avez pas de compte etudiant créez en un.");
+        }
+    }
     }//GEN-LAST:event_button4ActionPerformed
 
     private void button4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button4MouseEntered
@@ -519,25 +546,80 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
     }//GEN-LAST:event_button4MouseEntered
 
     private void jLabel6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MousePressed
-        //Interface interfaceSignUpEtudiant = new InterfaceEtudiant();
-        //interfaceSignUpEtudiant.setVisible(true);
+        SingupEtudiant interfaceSignUpEtudiant = new SingupEtudiant();
+        interfaceSignUpEtudiant.setVisible(true);
     }//GEN-LAST:event_jLabel6MousePressed
 
     private void jLabel9MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MousePressed
-        Interface interfaceSignUpBibliotecaire = new Interface();
-        interfaceSignUpBibliotecaire.setVisible(true);
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel9MousePressed
 
-    private void button3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button3MouseClicked
-       InterfaceBibliotecaire interfaceBibliotecaire = new InterfaceBibliotecaire();
-        interfaceBibliotecaire.setVisible(true);
         
+       
+    }//GEN-LAST:event_jLabel9MousePressed
+    
+    private void button3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button3MouseClicked
+       //InterfaceBibliotecaire interfaceBibliotecaire = new InterfaceBibliotecaire();
+        //interfaceBibliotecaire.setVisible(true);
+        String email = textField1.getText();
+        String password = textField2.getText();
+
+        if (email.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Votre email est Vide.", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        } else if (password.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Mot de passe Invalide.", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        } else {
+            Etudiant etudiant = new Etudiant(email, password);
+            Boolean isConnect = etudiant.seConnecter();
+            if (!isConnect) {
+                JOptionPane.showMessageDialog(this, "Bienvenue cher bibliotécaire, connexion réussie.");
+                InterfaceBibliotecaire interfaceSignUpBibliotecaire = new InterfaceBibliotecaire();
+                interfaceSignUpBibliotecaire.setVisible(true);
+                this.dispose();
+            } else {
+                JOptionPane.showMessageDialog(this, "Vous n'avez pas de compte au compte Biblotecaire, créez en un.");
+            }
+        }
         
         
         
         // TODO add your handling code here:
     }//GEN-LAST:event_button3MouseClicked
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+
+
+        SignupBibliotecaire signupBibliotecaire =new  SignupBibliotecaire();
+        signupBibliotecaire.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void btnConnexionEtudiant(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnConnexionEtudiant
+        // TODO add your handling code here:
+              // TODO add your handling code here:
+    String email = textField1.getText();
+    String password = textField2.getText();
+    
+    if (email.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "Votre email est Vide.", "Error", JOptionPane.ERROR_MESSAGE);
+        return;
+        
+    }else if( password.isEmpty()){
+        JOptionPane.showMessageDialog(this, "Mot de passe Invalide.", "Error", JOptionPane.ERROR_MESSAGE);
+        return;
+    }else{
+        Etudiant etudiant = new Etudiant(email,password);
+       Boolean isConnect = etudiant.seConnecter();
+       if(isConnect){
+           JOptionPane.showMessageDialog(this, "Bienvenus cher etudiant Connection Réussi.");
+           InterfaceEtudiant interfaceEtudiant = new InterfaceEtudiant();
+           interfaceEtudiant.setVisible(true);
+        
+       }else{JOptionPane.showMessageDialog(this, "Vous avez pas de compte etudiant créez en un.");
+        }
+    }
+    }//GEN-LAST:event_btnConnexionEtudiant
 
     /**
      * @param args the command line arguments
@@ -579,6 +661,7 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
     private java.awt.Button button2;
     private java.awt.Button button3;
     private java.awt.Button button4;
+    public java.awt.TextField inputEmail;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -602,7 +685,6 @@ public class EtudiantBibliotecaire extends javax.swing.JFrame {
     private java.awt.Label label6;
     private java.awt.TextField textField1;
     private java.awt.TextField textField2;
-    private java.awt.TextField textField3;
     private java.awt.TextField textField4;
     // End of variables declaration//GEN-END:variables
 

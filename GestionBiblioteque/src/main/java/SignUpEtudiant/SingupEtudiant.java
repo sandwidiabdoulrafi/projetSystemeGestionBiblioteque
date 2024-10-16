@@ -2,19 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package SignUp;
+package SignUpEtudiant;
+
+import DataBaseInteraction.BibliothecaireRole;
+import DataBaseInteraction.Etudiant;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author User
  */
-
-public class Interface extends javax.swing.JFrame {
+public class SingupEtudiant extends javax.swing.JFrame {
 
     /**
-     * Creates new form Interface
+     * Creates new form SingupEtudiant
      */
-    public Interface() {
+    public SingupEtudiant() {
         initComponents();
     }
 
@@ -27,8 +30,8 @@ public class Interface extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        label1 = new java.awt.Label();
         jLabel2 = new javax.swing.JLabel();
+        label7 = new java.awt.Label();
         jPanel1 = new javax.swing.JPanel();
         label2 = new java.awt.Label();
         label3 = new java.awt.Label();
@@ -43,19 +46,19 @@ public class Interface extends javax.swing.JFrame {
         textField3 = new java.awt.TextField();
         textField4 = new java.awt.TextField();
         textField5 = new java.awt.TextField();
-        label7 = new java.awt.Label();
-
-        label1.setFont(new java.awt.Font("Dialog", 2, 36)); // NOI18N
-        label1.setName("titre"); // NOI18N
-        label1.setText("Creation de compte bibliotécaire");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1250, 800));
 
         jLabel2.setBackground(new java.awt.Color(175, 94, 94));
         jLabel2.setFont(new java.awt.Font("Microsoft YaHei UI Light", 3, 26)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(133, 193, 233));
         jLabel2.setText("Bibliotèque Des Élites");
         jLabel2.setName("logo"); // NOI18N
+
+        label7.setFont(new java.awt.Font("Dialog", 2, 36)); // NOI18N
+        label7.setName("titre"); // NOI18N
+        label7.setText("Creation de compte Etudiant");
 
         jPanel1.setBackground(new java.awt.Color(133, 193, 233));
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -244,37 +247,33 @@ public class Interface extends javax.swing.JFrame {
                 .addGap(86, 86, 86))
         );
 
-        label7.setFont(new java.awt.Font("Dialog", 2, 36)); // NOI18N
-        label7.setName("titre"); // NOI18N
-        label7.setText("Creation de compte bibliotécaire");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 131, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(125, 125, 125))
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(199, 199, 199)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(344, 344, 344)
-                        .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(241, Short.MAX_VALUE))
+                .addGap(16, 16, 16)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(255, 255, 255))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(79, 79, 79))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -282,20 +281,69 @@ public class Interface extends javax.swing.JFrame {
 
     private void textField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField2ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_textField2ActionPerformed
 
     private void textField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField1ActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling coere:
     }//GEN-LAST:event_textField1ActionPerformed
+
+    private void button1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button1MouseClicked
+ 
+        
+        String nom = textField2.getText();
+        String prenom = textField3.getText();
+        String email = textField4.getText();
+        String motDePasse = textField5.getText();
+        String confirmPassword = textField1.getText();
+
+        if (nom.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Le champs du nom est vide.");
+            return;
+        }else if( prenom.isEmpty()){
+            JOptionPane.showMessageDialog(this, "Le champs du prenom est vide.");
+            return;
+
+            
+            
+        }else if(email.isEmpty()){
+            JOptionPane.showMessageDialog(this, "Le champs du mail est vide.");
+            return;
+
+            
+            
+        }else if(motDePasse.isEmpty()){
+            JOptionPane.showMessageDialog(this, "Le champs du Mot de passe est vide.");
+            return;
+
+            
+        }
+        else if (!motDePasse.equals(confirmPassword)) {
+            JOptionPane.showMessageDialog(this, "Les mots de passe ne correspond pas.");
+            return;
+           }
+        else {
+            Etudiant etudiant = new Etudiant();
+            boolean isInscrit = etudiant.creerCompte(nom, prenom, email, motDePasse);
+            
+            if(isInscrit){
+                JOptionPane.showMessageDialog(this, "Creation de compte avec Succè");
+                this.dispose();
+            }else{JOptionPane.showMessageDialog(this, "Échec lors de la creation du compte ");}
+        
+        }
+
+        
+    }//GEN-LAST:event_button1MouseClicked
 
     private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_button1ActionPerformed
 
     private void button2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button2MouseClicked
-       this.dispose();
+        this.dispose();
 
-    // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_button2MouseClicked
 
     private void button2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_button2FocusGained
@@ -318,11 +366,6 @@ public class Interface extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_textField5ActionPerformed
 
-    private void button1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button1MouseClicked
-        this.dispose();
-                // TODO add your handling code here:
-    }//GEN-LAST:event_button1MouseClicked
-
     /**
      * @param args the command line arguments
      */
@@ -340,20 +383,20 @@ public class Interface extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Interface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SingupEtudiant.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Interface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SingupEtudiant.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Interface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SingupEtudiant.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Interface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SingupEtudiant.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Interface().setVisible(true);
+                new SingupEtudiant().setVisible(true);
             }
         });
     }
@@ -364,7 +407,6 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private java.awt.Label label1;
     private java.awt.Label label2;
     private java.awt.Label label3;
     private java.awt.Label label4;
