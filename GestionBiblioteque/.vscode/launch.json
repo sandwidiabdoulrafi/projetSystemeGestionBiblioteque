@@ -1,0 +1,70 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceBilio",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/Biblioteque.InterfaceBilio",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "Interface",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/Etudiant.Interface",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "SignUpBiBliotecaire",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/Interface.SignUpBiBliotecaire",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "Interface(1)",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/InterfaceBiblioteque.Interface",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "EtudiantBibliotecaire",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/Login.EtudiantBibliotecaire",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "gestionbiblioteque/LoginEtudiant",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/LoginEtudiant",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "Interface(2)",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/SignUp.Interface",
+            "projectName": "GestionBiblioteque"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.mycompany.gestionbiblioteque/com.mycompany.gestionbiblioteque.App",
+            "projectName": "GestionBiblioteque"
+        }
+    ]
+}
